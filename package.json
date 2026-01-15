@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4209",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -30,7 +30,9 @@
     "@angular/platform-browser": "^21.1.0",
     "@angular/router": "^21.1.0",
     "rxjs": "~7.8.0",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "bootstrap": "^5.3.8",
+    "font-awesome": "^4.7.0"
   },
   "devDependencies": {
     "@angular/build": "^21.1.0",
@@ -38,8 +40,6 @@
     "@angular/compiler-cli": "^21.1.0",
     "jsdom": "^27.1.0",
     "typescript": "~5.9.2",
-    "vitest": "^4.0.8",
-    "bootstrap": "^5.3.8",
-    "font-awesome": "^4.7.0"
+    "vitest": "^4.0.8"
   }
 }
